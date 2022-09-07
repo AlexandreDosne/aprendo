@@ -1,0 +1,101 @@
+// Logo font: font-family: 'Nunito', sans-serif;
+// Body font: font-family: 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu&display=swap');
+
+$tonique    : #677CDB;
+$secondaire : #34458E;
+$discrete   : #222D5C;
+
+.navbar {
+    box-shadow: 0px 5px 10px #bbb;
+}
+
+.justifyText
+{
+    text-align  : justify;
+    text-justify: inter-word;
+    word-break  : break-word;
+}
+
+.sectionTitle
+{
+    margin-top: 1em;
+}
+
+#logo {
+    margin-left: 2rem;
+}
+
+#navBarLastItem {
+    margin-right: 2rem;
+}
+
+// Welcome message
+
+#divWelcomeContainer {
+    background-color: rgb(235, 235, 235);
+}
+
+#divWelcomeText {
+    margin-top  : 2rem;
+}
+
+#divWM_1 {
+    color: #DB7D8E;
+}
+
+#divWM_2 {
+    color          : #DBB951;
+    text-decoration: overline;
+}
+
+#divWM_3 {
+    color                : #5CDB73;
+    text-decoration      : underline;
+    text-underline-offset: 14px;
+}
+
+// Welcome Title
+
+#welcomeTitle {
+    text-align    : center;
+    margin-top    : 2.5em;
+    margin-bottom : 1.3em;
+    font-family   : 'Nunito', sans-serif;
+    letter-spacing: 6pt;
+    color         : $tonique;
+}
+
+#welcomeSubtitle {
+    margin-top    : 2rem;
+    margin-bottom : 2rem;
+    font-family   : 'Nunito', sans-serif;
+    font-size     : 18pt;
+    letter-spacing: 1pt;
+    text-align    : center;
+}
+
+#banner {
+    background-color: #fff;
+}
+
+section {
+    margin-top: 7em;
+    background-color: #fff;
+    min-height: 15em;
+    box-shadow: 0px 5px 10px #bbb;
+}
+
+section p {
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+}
+
+body {
+    background-image     : url(../img/bg.jpg);
+    background-position  : center;
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    font-family          : 'Ubuntu', sans-serif;
+    letter-spacing       : 0.3pt;
+}
